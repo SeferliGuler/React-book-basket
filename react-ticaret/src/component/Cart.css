@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cart{
+    border: 1px solid #ccc;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.cart:hover{
+    box-shadow: 2px 3px 10px rgb(73, 71, 71);
+    transform: scale(1.03);
+}
+
+img{
+    width: 300px;
+    height: 330px;
+}
+
+.amazon{
+    display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   padding: 50px;
+}
+
+.title{
+    font-size: 20px;
+    color: rgb(112, 68, 3);
+    margin-left: 5px;
+}
+
+.remove{
+    padding: 8px;
+    border: none;
+    background-color: aqua;
+    border-radius: 3px;
+    width: 100px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.price{
+    margin-left: 20px;
+    font-size: 20px;
+    margin: 3px;
+}
+
+.sebetim{
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    border: 1px solid #ccc;
+    height: 100px;
+    margin-top: 10px;
+}
+
+button{
+    margin-left: 10px;
+    padding: 5px;
+    background-color: rgb(29, 239, 26);
+    border-radius: 2px;
+    box-shadow: 1px 1px 5px rgb(51, 48, 48);
+    border: none;
+}
+
+ .sebetim .remove{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 280px;
+ }
+
+ .sebetim .par{
+    margin-top: 20px;
+ }
+
+ .par p:nth-child(1){
+    font-size: 20px;
+    color: rgb(79, 45, 4);
+ }
+ .par p:nth-child(2){
+    font-size: 20px;
+    margin-top: 25px;
+    background-color: red;
+    width: 80px;
+    text-align: center;
+    color: white;
+    border-radius: 3px;
+ }
+
+ .sbt{
+    margin-top: 100px;
+    margin-left: 20px;
+ }
+
+.sebetim img{
+    width: 80px;
+    height: 100px;
+}
+
+  .sebetim .sayi{
+    width: 25px;
+    height: 25px;
+   margin-left: 2px;
+   cursor: pointer;
+  }
+
+  .sayilar{
+    margin-left: 290px;
+    margin-top: 10px;
+  }
+
